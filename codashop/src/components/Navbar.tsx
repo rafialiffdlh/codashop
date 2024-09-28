@@ -19,7 +19,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="flex items-center justify-between bg-purple-900 text-white px-4 py-2">
+      <nav className="flex items-center justify-between text-white px-4 py-2 bg-[#3d1f43]">
         <div className="flex items-center">
           <IoMdMenu size={28} className="cursor-pointer" onClick={toggleMenu} />
           <div className="ml-4 flex items-center space-x-2">
@@ -44,7 +44,7 @@ export default function NavBar() {
       </nav>
 
       <div
-        className={`fixed top-0 left-0 w-80 h-full bg-purple-900 text-white p-6 z-50 shadow-lg transition-transform duration-300 ${
+        className={`fixed top-0 left-0 w-80 h-full bg-[#3d1f43] text-white p-6 z-50 shadow-lg transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
