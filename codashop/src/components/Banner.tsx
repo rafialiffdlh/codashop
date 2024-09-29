@@ -84,7 +84,7 @@ export default function Banner() {
             .map((_, i) => (
               <div
                 key={i}
-                className="w-2 h-2 lg:w-3 lg:h-3 bg-white rounded-full mx-1 opacity-50 hover:opacity-100 transition-opacity duration-300"
+                className="w-2 h-2 lg:w-3 lg:h-3 rounded-full mx-1 opacity-50 hover:opacity-100 transition-opacity duration-300"
               />
             ))}
         </div>
