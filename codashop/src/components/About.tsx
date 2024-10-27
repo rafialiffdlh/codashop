@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="bg-[#280032] text-white p-8">
       <h1 className="text-4xl font-bold text-center mb-4">
-        CODASHOP INDONESIA
+        CODASHOP INDONESIA (clone by rafi)
       </h1>
       <h3 className="text-2xl font-semibold text-center mb-6">
         Codashop: Website top-up terbesar, tercepat dan terpercaya di Indonesia

@@ -6,10 +6,8 @@ export default function Register() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#280032] px-4">
       {" "}
-      {/* Added px-4 for mobile padding */}
       <div className="bg-[#280032] p-8 rounded-lg shadow-lg text-center max-w-sm w-full border border-white sm:mx-4">
         {" "}
-        {/* Added sm:mx-4 for small margins */}
         <h2 className="text-yellow-300 font-semibold mb-2">
           Top up lebih cepat, penawaran lebih baik
         </h2>
